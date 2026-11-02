@@ -1,0 +1,9 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "ignoreDeprecations": "6.0",
+    "types": ["cypress", "@testing-library/cypress"]
+  },
+  "include": ["**/*.ts", "../cypress.config.ts"]
+}
