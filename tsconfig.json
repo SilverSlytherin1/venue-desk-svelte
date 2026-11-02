@@ -1,0 +1,16 @@
+{
+  "extends": "$app/tsconfig",
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "types": ["$app/types", "@testing-library/jest-dom/vitest"]
+  },
+  "include": ["src", "*"]
+}

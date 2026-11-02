@@ -1,0 +1,7 @@
+/build
+/.svelte-kit
+/coverage
+/node_modules
+/cypress/screenshots
+/docs/screenshots
+package-lock.json

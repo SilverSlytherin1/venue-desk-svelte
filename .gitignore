@@ -1,0 +1,26 @@
+# Dependencies
+/node_modules
+
+# Build and tool output
+/build
+/.svelte-kit
+/coverage
+
+# Cypress run artefacts
+/cypress/screenshots
+/cypress/videos
+/cypress/downloads
+
+# Local environment
+.env
+.env.*
+
+# Logs
+npm-debug.log*
+
+# Editors and operating systems
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
